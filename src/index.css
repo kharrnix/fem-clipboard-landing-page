@@ -1,0 +1,18 @@
+:root {
+	/* Colors */
+	--clr-neutral-100: hsl(0, 0%, 100%);
+	--clr-neutral-200: hsl(201, 11%, 66%);
+	--clr-neutral-900: hsl(210, 10%, 33%);
+
+	--clr-primary-400: hsl(171, 66%, 44%);
+	--clr-secondary-400: hsl(233, 100%, 69%);
+
+	/* Font variables */
+	--ff-primary: "Bai Jamjuree", Arial, sans-serif;
+
+	--fs-300: 1rem;
+	--fs-400: 1.187rem;
+	--fs-500: 1.437rem;
+	--fs-700: 2.187rem;
+	--fs-900: 2.75rem;
+}
