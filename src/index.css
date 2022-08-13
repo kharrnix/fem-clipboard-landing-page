@@ -20,6 +20,13 @@
 	--fs-500: 1.125rem;
 	--fs-700: 1.312rem;
 	--fs-900: 1.5rem;
+
+	/* Margin/padding variables */
+	--margin-900: 8.25rem;
+	--margin-700: 2.625rem;
+	--margin-600: 2.5rem;
+	--margin-500: 1.375rem;
+	--margin-400: 1.125rem;
 }
 
 /* Desktop font sizes */

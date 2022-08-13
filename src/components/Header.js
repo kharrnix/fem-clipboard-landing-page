@@ -16,8 +16,16 @@ export default function Header() {
 					Clipboard allows you to track and organize everything you
 					copy. Instantly access your clipboard on all your devices.
 				</p>
-				<LinkButtonPrimary link="/download" text="Download for iOS" />
-				<LinkButtonSecondary link="/download" text="Download for Mac" />
+				<div className="header__btn-container">
+					<LinkButtonPrimary
+						link="/download"
+						text="Download for iOS"
+					/>
+					<LinkButtonSecondary
+						link="/download"
+						text="Download for Mac"
+					/>
+				</div>
 			</header>
 		</>
 	);
