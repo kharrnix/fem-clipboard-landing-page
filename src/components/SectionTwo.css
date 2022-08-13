@@ -23,3 +23,56 @@
 	color: var(--clr-neutral-900);
 	font-size: var(--fs-500);
 }
+
+@media screen and (min-width: 62.062em) {
+	.section2 {
+		padding: 0;
+	}
+
+	.section2__container {
+		padding: 0 var(--margin-400);
+	}
+
+	.section2__column1 {
+		position: relative;
+	}
+
+	.section2__column2 {
+		margin-top: var(--margin-700);
+		text-align: left;
+	}
+
+	.section2__grid-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 150px;
+
+		margin-top: var(--margin-750);
+	}
+
+	.section2__image {
+		position: absolute;
+		left: -10rem;
+		width: 43.75rem;
+	}
+}
+
+/* 
+* Just like the header, this is just some extra
+* padding for the solution screenshot
+*/
+
+@media screen and (min-width: 89.937em) {
+	.section2__column2 {
+		padding-right: var(--margin-820);
+	}
+
+	.section2__container {
+		padding: 0 var(--margin-850);
+	}
+
+	.section2__image {
+		left: -5rem;
+		width: 46.25rem;
+	}
+}
