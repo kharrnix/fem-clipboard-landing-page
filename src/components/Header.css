@@ -7,3 +7,8 @@
 	font-size: var(--fs-900);
 	font-weight: 600;
 }
+
+.header__logo {
+	display: inline;
+	width: auto;
+}
