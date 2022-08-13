@@ -1,0 +1,13 @@
+.section2 {
+	text-align: center;
+}
+
+.section2__heading {
+	color: var(--clr-neutral-900);
+	font-size: var(--fs-700);
+}
+
+.section2__secondary-heading {
+	color: var(--clr-neutral-900);
+	font-size: var(--fs-500);
+}
