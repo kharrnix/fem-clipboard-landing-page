@@ -1,5 +1,7 @@
 import "./App.css";
 
+import Header from "./components/Header";
+
 import iconLogo from "./images/logo.svg";
 import iconBlacklist from "./images/icon-blacklist.svg";
 import iconText from "./images/icon-text.svg";
@@ -20,17 +22,7 @@ import logoVectorGraphics from "./images/logo-vector-graphics.png";
 function App() {
 	return (
 		<>
-			<header>
-				<img src={iconLogo} alt="" />
-				<h1>A history of everything you copy</h1>
-				<p>
-					Clipboard allows you to track and organize everything you
-					copy. Instantly access your clipboard on all your devices.
-				</p>
-				<a href="#">Download for iOS</a>
-				<a href="#">Download for Mac</a>
-			</header>
-
+			<Header/>
 			<section>
 				<h2>Keep track of your snippets</h2>
 				<p>
