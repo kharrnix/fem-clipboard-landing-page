@@ -24,6 +24,7 @@
 	font-size: var(--fs-500);
 }
 
+/* For large devices */
 @media screen and (min-width: 62.062em) {
 	.section2 {
 		padding: 0;
@@ -57,10 +58,7 @@
 	}
 }
 
-/* 
-* Just like the header, this is just some extra
-* padding for the solution screenshot
-*/
+/* For very large devices */
 
 @media screen and (min-width: 89.937em) {
 	.section2__column2 {

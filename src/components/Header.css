@@ -29,7 +29,7 @@
 	margin-top: var(--margin-300);
 }
 
-/* Desktop styles */
+/* Large devices */
 @media screen and (min-width: 33.687em) {
 	.header {
 		background-image: url(../images/bg-header-desktop.png);
@@ -45,10 +45,7 @@
 	}
 }
 
-/* Bigger desktop styles
-* This is just so the screenshot will look closer
-* to the design when the width is at 1440px
-*/
+/* Very large devices */
 @media screen and (min-width: 89.937em) {
 	.header__paragraph {
 		padding-left: var(--margin-900);
