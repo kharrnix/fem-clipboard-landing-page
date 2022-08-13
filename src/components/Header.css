@@ -1,14 +1,10 @@
 .header {
-	padding: var(--margin-900) var(--margin-500);
+	padding: var(--margin-800) var(--margin-500);
 	text-align: center;
 
 	background-image: url(../images/bg-header-mobile.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
-}
-
-.link-btn:last-child {
-	margin-top: var(--margin-400);
 }
 
 .header__heading {
@@ -26,4 +22,31 @@
 .header__paragraph {
 	margin-top: var(--margin-400);
 	margin-bottom: var(--margin-600);
+}
+
+.link-btn:last-child {
+	margin-top: var(--margin-400);
+}
+
+/* Desktop styles */
+@media screen and (min-width: 33.687em) {
+	.header {
+		background-image: url(../images/bg-header-desktop.png);
+	}
+
+	.link-btn:last-child {
+		margin-top: 0;
+		margin-left: var(--margin-400);
+	}
+}
+
+/* Bigger desktop styles
+* This is just so the screenshot will look closer
+* to the design when the width is at 1440px
+*/
+@media screen and (min-width: 89.937em) {
+	.header__paragraph {
+		padding-left: var(--margin-900);
+		padding-right: var(--margin-900);
+	}
 }
