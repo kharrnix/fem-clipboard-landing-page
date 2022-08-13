@@ -11,7 +11,6 @@ import iconFacebook from "./images/icon-facebook.svg";
 import iconTwitter from "./images/icon-twitter.svg";
 import iconInstagram from "./images/icon-instagram.svg";
 
-import imgComputer from "./images/image-computer.png";
 import imgDevices from "./images/image-devices.png";
 
 import logoGoogle from "./images/logo-google.png";
