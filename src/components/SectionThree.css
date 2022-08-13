@@ -1,6 +1,5 @@
 .section3 {
-	margin-bottom: var(--margin-750);
-	margin-top: var(--margin-820);
+	margin-top: var(--margin-700);
 	padding: 0rem var(--margin-500);
 	text-align: center;
 }
@@ -18,7 +17,17 @@
 
 .section3__paragraph {
 	margin-top: var(--margin-200);
-	margin-bottom: var(--margin-750);
+	margin-bottom: var(--margin-700);
+}
+/* For large devices */
+@media screen and (min-width: 33.687em) {
+	.section3 {
+		margin-top: var(--margin-820);
+	}
+
+	.section3__paragraph {
+		margin-bottom: var(--margin-750);
+	}
 }
 
 /* For very large devices */
