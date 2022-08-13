@@ -16,9 +16,19 @@
 	/* Font variables */
 	--ff-primary: "Bai Jamjuree", Arial, sans-serif;
 
-	--fs-300: 1rem;
-	--fs-400: 1.187rem;
-	--fs-500: 1.437rem;
-	--fs-700: 2.187rem;
-	--fs-900: 2.75rem;
+	--fs-400: 1rem;
+	--fs-500: 1.125rem;
+	--fs-700: 1.312rem;
+	--fs-900: 1.5rem;
+}
+
+/* Desktop font sizes */
+@media screen and (min-width: 33.687em) {
+	:root {
+		--fs-300: 1rem;
+		--fs-400: 1.187rem;
+		--fs-500: 1.437rem;
+		--fs-700: 2.187rem;
+		--fs-900: 2.75rem;
+	}
 }
