@@ -1,0 +1,8 @@
+.section3 {
+	text-align: center;
+}
+
+.section3__heading {
+	color: var(--clr-neutral-900);
+	font-size: var(--fs-700);
+}
