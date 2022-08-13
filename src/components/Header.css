@@ -1,0 +1,9 @@
+.header {
+	text-align: center;
+}
+
+.header__heading {
+	color: var(--clr-neutral-900);
+	font-size: var(--fs-900);
+	font-weight: 600;
+}
