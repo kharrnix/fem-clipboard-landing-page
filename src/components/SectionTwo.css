@@ -1,10 +1,22 @@
 .section2 {
+	margin-bottom: var(--margin-800);
+	padding: 0rem var(--margin-500);
 	text-align: center;
 }
 
 .section2__heading {
 	color: var(--clr-neutral-900);
 	font-size: var(--fs-700);
+	line-height: 1.2;
+}
+
+.section2__image {
+	margin-bottom: var(--margin-600);
+}
+
+.section2__paragraph {
+	margin-bottom: var(--margin-700);
+	margin-top: var(--margin-200);
 }
 
 .section2__secondary-heading {

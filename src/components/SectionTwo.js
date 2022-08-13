@@ -15,7 +15,7 @@ export default function SectionTwo() {
 					everything.
 				</p>
 
-				<img src={imgComputer} alt="" />
+				<img className="section2__image" src={imgComputer} alt="" />
 				<h3 className="section2__secondary-heading">Quick Search</h3>
 				<p className="section2__paragraph">
 					Easily search your snippets by content, category, web
