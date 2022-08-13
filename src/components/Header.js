@@ -1,4 +1,6 @@
 import React from "react";
+import LinkButtonPrimary from "./LinkButtonPrimary";
+import LinkButtonSecondary from "./LinkButtonSecondary";
 import iconLogo from "../images/logo.svg";
 
 export default function Header() {
@@ -11,8 +13,8 @@ export default function Header() {
 					Clipboard allows you to track and organize everything you
 					copy. Instantly access your clipboard on all your devices.
 				</p>
-				<a href="#">Download for iOS</a>
-				<a href="#">Download for Mac</a>
+				<LinkButtonPrimary link="/download" text="Download for iOS"/>
+				<LinkButtonSecondary link="/download" text="Download for Mac"/>
 			</header>
 		</>
 	);

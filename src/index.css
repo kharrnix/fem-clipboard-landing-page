@@ -4,8 +4,14 @@
 	--clr-neutral-200: hsl(201, 11%, 66%);
 	--clr-neutral-900: hsl(210, 10%, 33%);
 
+	--clr-primary-100: hsl(171, 66%, 86%);
+	--clr-primary-200: hsl(171, 66%, 57%);
 	--clr-primary-400: hsl(171, 66%, 44%);
+	--clr-primary-600: hsl(171, 66%, 38%);
+	--clr-secondary-100: hsl(233, 100%, 88%);
+	--clr-secondary-200: hsl(233, 100%, 76%);
 	--clr-secondary-400: hsl(233, 100%, 69%);
+	--clr-secondary-600: hsl(233, 100%, 60%);
 
 	/* Font variables */
 	--ff-primary: "Bai Jamjuree", Arial, sans-serif;
