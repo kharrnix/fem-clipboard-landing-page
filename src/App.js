@@ -2,6 +2,7 @@ import "./App.css";
 
 import Header from "./components/Header";
 import SectionTwo from "./components/SectionTwo";
+import SectionThree from "./components/SectionThree";
 
 import iconLogo from "./images/logo.svg";
 import iconBlacklist from "./images/icon-blacklist.svg";
@@ -10,8 +11,6 @@ import iconPreview from "./images/icon-preview.svg";
 import iconFacebook from "./images/icon-facebook.svg";
 import iconTwitter from "./images/icon-twitter.svg";
 import iconInstagram from "./images/icon-instagram.svg";
-
-import imgDevices from "./images/image-devices.png";
 
 import logoGoogle from "./images/logo-google.png";
 import logoIBM from "./images/logo-ibm.png";
@@ -24,15 +23,7 @@ function App() {
 		<>
 			<Header/>
 			<SectionTwo/>
-			<section>
-				<h2>Access Clipboard anywhere</h2>
-				<p>
-					Whether you're on the go, or at your computer, you can
-					access all your Clipboard snippets in a few simple clicks.
-				</p>
-				<img src={imgDevices} alt="" />
-			</section>
-
+			<SectionThree />
 			<section>
 				<h2>Supercharge your workflow</h2>
 				<p>We've got the tools to boost your productivity.</p>
