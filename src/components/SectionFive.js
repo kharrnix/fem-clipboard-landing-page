@@ -12,27 +12,27 @@ export default function SectionFive() {
 			<section className="section5">
 				<div className="section5__grid-container">
 					<img
-						className="section5__icon"
+						className="section5__logo"
 						src={logoGoogle}
 						alt="Google logo"
 					/>
 					<img
-						className="section5__icon"
+						className="section5__logo"
 						src={logoIBM}
 						alt="IBM logo"
 					/>
 					<img
-						className="section5__icon"
+						className="section5__logo"
 						src={logoMicrosoft}
 						alt="Microsoft logo"
 					/>
 					<img
-						className="section5__icon"
+						className="section5__logo"
 						src={logoHPE}
 						alt="Hewlett Packard Enterprise logo"
 					/>
 					<img
-						className="section5__icon"
+						className="section5__logo"
 						src={logoVectorGraphics}
 						alt="Vector Graphics logo"
 					/>
