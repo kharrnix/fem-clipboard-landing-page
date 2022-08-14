@@ -3,18 +3,13 @@ import "./App.css";
 import Header from "./components/Header";
 import SectionTwo from "./components/SectionTwo";
 import SectionThree from "./components/SectionThree";
+import SectionFour from "./components/SectionFour";
+import SectionFive from "./components/SectionFive";
 
 import iconLogo from "./images/logo.svg";
 import iconFacebook from "./images/icon-facebook.svg";
 import iconTwitter from "./images/icon-twitter.svg";
 import iconInstagram from "./images/icon-instagram.svg";
-
-import logoGoogle from "./images/logo-google.png";
-import logoIBM from "./images/logo-ibm.png";
-import logoMicrosoft from "./images/logo-microsoft.png";
-import logoHPE from "./images/logo-hp.png";
-import logoVectorGraphics from "./images/logo-vector-graphics.png";
-import SectionFour from "./components/SectionFour";
 
 function App() {
 	return (
@@ -23,14 +18,7 @@ function App() {
 			<SectionTwo/>
 			<SectionThree />
 			<SectionFour />
-			<section>
-				<img src={logoGoogle} alt="Google logo" />
-				<img src={logoIBM} alt="IBM logo" />
-				<img src={logoMicrosoft} alt="Microsoft logo" />
-				<img src={logoHPE} alt="Hewlett Packard Enterprise logo" />
-				<img src={logoVectorGraphics} alt="Vector Graphics logo" />
-			</section>
-
+			<SectionFive />
 			<section>
 				<h2>Clipboard for iOS and Mac OS</h2>
 				<p>
