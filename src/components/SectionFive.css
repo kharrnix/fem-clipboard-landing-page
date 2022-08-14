@@ -7,3 +7,16 @@
 	max-width: 6.875rem;
 	margin: var(--margin-720) auto;
 }
+
+
+/* For large devices */
+@media screen and (min-width: 62.062em) {
+	.section5__grid-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	}
+
+	.section5__logo {
+		max-width: 10.312rem;
+	}
+}
