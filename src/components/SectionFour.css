@@ -1,18 +1,29 @@
 .section4 {
+	margin-top: var(--margin-750);
+	padding: 0rem var(--margin-500);
 	text-align: center;
 }
 
 .section4__heading {
+	margin-bottom: var(--margin-100);
 	color: var(--clr-neutral-900);
 	font-size: var(--fs-700);
+	line-height: 1.2;
 }
 
 .section4__icon {
 	display: inline;
 	width: auto;
+	margin-top: var(--margin-500);
+}
+
+.section4__main-paragraph {
+	margin-bottom: var(--margin-720);
 }
 
 .section4__secondary-heading {
+	margin-bottom: var(--margin-100);
+	margin-top: var(--margin-200);
 	color: var(--clr-neutral-900);
 	font-size: var(--fs-500);
 }
