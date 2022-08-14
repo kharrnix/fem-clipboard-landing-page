@@ -10,7 +10,7 @@ export default function SectionSix() {
 				<h2 className="section6__heading">Clipboard for iOS and Mac OS</h2>
 				<p className="section6__paragraph">
 					Available for free on the App Store. Download for Mac or
-					iOS, sync with iCloud and you’re ready to start adding to
+					iOS, sync with iCloud and you're ready to start adding to
 					your clipboard.
 				</p>
 

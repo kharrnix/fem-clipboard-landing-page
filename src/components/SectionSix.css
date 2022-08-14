@@ -1,0 +1,24 @@
+.section6 {
+	margin: var(--margin-800) 0rem;
+	padding: 0rem var(--margin-500);
+	text-align: center;
+}
+
+.section6__heading {
+	color: var(--clr-neutral-900);
+	font-size: var(--fs-700);
+	line-height: 1.2;
+}
+
+.section6__paragraph {
+	margin-top: var(--margin-200);
+	margin-bottom: var(--margin-600);
+}
+
+/* For very large devices */
+
+@media screen and (min-width: 89.937em) {
+	.section6__paragraph {
+		padding: 0rem var(--margin-830);
+	}
+}
