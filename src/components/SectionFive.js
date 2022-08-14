@@ -9,12 +9,34 @@ import logoVectorGraphics from "../images/logo-vector-graphics.png";
 export default function SectionFive() {
 	return (
 		<>
-			<section>
-				<img src={logoGoogle} alt="Google logo" />
-				<img src={logoIBM} alt="IBM logo" />
-				<img src={logoMicrosoft} alt="Microsoft logo" />
-				<img src={logoHPE} alt="Hewlett Packard Enterprise logo" />
-				<img src={logoVectorGraphics} alt="Vector Graphics logo" />
+			<section className="section5">
+				<div className="section5__grid-container">
+					<img
+						className="section5__icon"
+						src={logoGoogle}
+						alt="Google logo"
+					/>
+					<img
+						className="section5__icon"
+						src={logoIBM}
+						alt="IBM logo"
+					/>
+					<img
+						className="section5__icon"
+						src={logoMicrosoft}
+						alt="Microsoft logo"
+					/>
+					<img
+						className="section5__icon"
+						src={logoHPE}
+						alt="Hewlett Packard Enterprise logo"
+					/>
+					<img
+						className="section5__icon"
+						src={logoVectorGraphics}
+						alt="Vector Graphics logo"
+					/>
+				</div>
 			</section>
 		</>
 	);
