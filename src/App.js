@@ -5,6 +5,7 @@ import SectionTwo from "./components/SectionTwo";
 import SectionThree from "./components/SectionThree";
 import SectionFour from "./components/SectionFour";
 import SectionFive from "./components/SectionFive";
+import SectionSix from "./components/SectionSix";
 
 import iconLogo from "./images/logo.svg";
 import iconFacebook from "./images/icon-facebook.svg";
@@ -19,16 +20,7 @@ function App() {
 			<SectionThree />
 			<SectionFour />
 			<SectionFive />
-			<section>
-				<h2>Clipboard for iOS and Mac OS</h2>
-				<p>
-					Available for free on the App Store. Download for Mac or
-					iOS, sync with iCloud and you’re ready to start adding to
-					your clipboard.
-				</p>
-				<a href="#">Download for iOS</a>
-				<a href="#">Download for Mac</a>
-			</section>
+			<SectionSix />
 
 			<footer>
 				<img src={iconLogo} alt="" />
