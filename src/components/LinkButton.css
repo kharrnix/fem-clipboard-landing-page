@@ -9,6 +9,7 @@
 
 	color: var(--clr-neutral-100);
 	font-weight: 600;
+	text-align: center;
 	text-decoration: none;
 
 	transition-duration: 300ms;
