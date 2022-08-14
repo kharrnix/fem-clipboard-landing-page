@@ -1,0 +1,9 @@
+.section5 {
+	margin-top: var(--margin-750);
+	padding: 0rem var(--margin-500);
+}
+
+.section5__logo {
+	max-width: 6.875rem;
+	margin: var(--margin-720) auto;
+}
