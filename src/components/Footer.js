@@ -42,7 +42,7 @@ export default function Footer() {
 							</a>
 						</li>
 					</ul>
-					<ul className="footer__column">
+					<ul className="footer__column footer__social-list">
 						<li>
 							<a
 								href="https://facebook.com"

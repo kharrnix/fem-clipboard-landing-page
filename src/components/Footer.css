@@ -1,0 +1,35 @@
+.footer {
+	padding: var(--margin-600);
+	background-color: var(--clr-neutral-150);
+	text-align: center;
+	line-height: 2.8;
+}
+
+.footer__icon {
+	display: inline;
+	max-width: 1.187rem;
+}
+
+.footer__link {
+	color: var(--clr-neutral-900);
+	font-size: var(--fs-500);
+	text-decoration: none;
+
+	transition-duration: 300ms;
+}
+
+.footer__logo {
+	max-width: 2.75rem;
+	margin: 0rem auto var(--margin-300);
+}
+
+.footer__social-list {
+	display: flex;
+	justify-content: center;
+	gap: var(--margin-500);
+	margin-top: var(--margin-500)
+}
+
+.footer__link:hover {
+	color: var(--clr-primary-400);
+}
