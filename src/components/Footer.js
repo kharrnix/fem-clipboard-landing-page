@@ -8,48 +8,79 @@ import iconInstagram from "../images/icon-instagram.svg";
 export default function Footer() {
 	return (
 		<>
-			<footer>
-				<img src={iconLogo} alt="" />
-				<nav>
-					<ul>
+			<footer className="footer">
+				<img className="footer__logo" src={iconLogo} alt="" />
+				<nav className="footer__nav">
+					<ul className="footer__column">
 						<li>
-							<a href="#">FAQs</a>
+							<a href="/faq" className="footer__link">
+								FAQs
+							</a>
 						</li>
 						<li>
-							<a href="#">Contact Us</a>
-						</li>
-					</ul>
-					<ul role="list">
-						<li>
-							<a href="#">Privacy Policy</a>
-						</li>
-						<li>
-							<a href="#">Press Kit</a>
+							<a href="/contact" className="footer__link">
+								Contact Us
+							</a>
 						</li>
 					</ul>
-					<ul>
+					<ul className="footer__column">
 						<li>
-							<a href="#">Install Guide</a>
+							<a href="/privacy" className="footer__link">
+								Privacy Policy
+							</a>
+						</li>
+						<li>
+							<a href="/press-kit" className="footer__link">
+								Press Kit
+							</a>
+						</li>
+					</ul>
+					<ul className="footer__column">
+						<li>
+							<a href="/install" className="footer__link">
+								Install Guide
+							</a>
+						</li>
+					</ul>
+					<ul className="footer__column">
+						<li>
+							<a
+								href="https://facebook.com"
+								className="footer__link"
+							>
+								<img
+									className="footer__icon"
+									src={iconFacebook}
+									alt="Facebook logo"
+								/>
+							</a>
+						</li>
+						<li>
+							<a
+								href="https://twitter.com"
+								className="footer__link"
+							>
+								<img
+									className="footer__icon"
+									src={iconTwitter}
+									alt="Twitter logo"
+								/>
+							</a>
+						</li>
+						<li>
+							<a
+								href="https://instagram.com"
+								className="footer__link"
+							>
+								<img
+									className="footer__icon"
+									src={iconInstagram}
+									alt="Instagram logo"
+								/>
+							</a>
 						</li>
 					</ul>
 				</nav>
-				<ul role="list">
-					<li>
-						<a href="#">
-							<img src={iconFacebook} alt="Facebook logo" />
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<img src={iconTwitter} alt="Twitter logo" />
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<img src={iconInstagram} alt="Instagram logo" />
-						</a>
-					</li>
-				</ul>
 			</footer>
 		</>
 	);
