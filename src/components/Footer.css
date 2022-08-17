@@ -37,3 +37,30 @@
 .footer__icon:hover {
 	filter: invert(70%) sepia(40%) saturate(5255%) hue-rotate(127deg) brightness(99%) contrast(70%);
 }
+
+/* For large devices */
+@media screen and (min-width: 62.062em) {
+
+	.footer__icon {
+		max-width: 1.5rem;
+	}
+
+	.footer__nav {
+		display: flex;
+		justify-content: space-between;
+		margin: 0rem var(--margin-800);
+		line-height: 2.5;
+	}
+
+	.footer__left {
+		display: flex;
+		gap: var(--margin-750);
+
+		text-align: left;
+	}
+
+	.footer__logo {
+		max-width: 3.5rem;
+		margin-top: var(--margin-500);
+	}
+}
