@@ -9,8 +9,10 @@ export default function Footer() {
 	return (
 		<>
 			<footer className="footer">
-				<img className="footer__logo" src={iconLogo} alt="" />
 				<nav className="footer__nav">
+					<a href="index.html">
+						<img className="footer__logo" src={iconLogo} alt="" />
+					</a>
 					<ul className="footer__column">
 						<li>
 							<a href="/faq" className="footer__link">
