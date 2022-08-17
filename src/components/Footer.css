@@ -33,3 +33,7 @@
 .footer__link:hover {
 	color: var(--clr-primary-400);
 }
+
+.footer__icon:hover {
+	filter: invert(70%) sepia(40%) saturate(5255%) hue-rotate(127deg) brightness(99%) contrast(70%);
+}
